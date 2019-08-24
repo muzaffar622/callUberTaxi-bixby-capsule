@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/muzaffar622/smartTaxi/blob/master/assets/img/easy-taxi-logo.png?raw=true" width="200" height="200"/>
+</p>
+
 # Overview
 This capsule is the sample of call taxi through Bixby voice assistant.
 
