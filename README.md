@@ -32,5 +32,5 @@ Bixby 통해서 쉽게 택시 요청을 할수 있는 서비스 중 하나 입�
  + utterance ('회사까지 택시 불러 줘')
 	
 # TODO
-• ERROR handeling
-• fix price page
++ ERROR handeling
++ fix price page
