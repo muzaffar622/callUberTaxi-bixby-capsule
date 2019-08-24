@@ -33,4 +33,4 @@ Bixby 통해서 쉽게 택시 요청을 할수 있는 서비스 중 하나 입�
 	
 # TODO
 + ERROR handeling
-+ fix price page
++ price page
