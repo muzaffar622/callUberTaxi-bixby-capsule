@@ -1,0 +1,10 @@
+authorization {
+    user {
+      oauth2-authorization-code(Uber) {
+        authorize-endpoint (https://login.uber.com/oauth/v2/authorize)
+        client-id (clientId)
+        client-secret-key (clientSecret)
+        token-endpoint (https://login.uber.com/oauth/v2/token)
+      }
+    }
+  }

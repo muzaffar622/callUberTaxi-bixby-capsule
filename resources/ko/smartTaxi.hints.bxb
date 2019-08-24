@@ -1,0 +1,12 @@
+hints {
+  uncategorized {
+    utterance (스마트 택시 불러 줘)
+    utterance (집까지 택시 불러 줘)
+    utterance (삼성동 17번지 로 택시 주문해 줘)
+    utterance ('택시 현재 위치 보여 줘')
+    utterance ('택시 예약을 취소 해 줘')
+    utterance ('동교로 51길에서 연세로까지 택시 얼마야')
+    utterance ('집까지 택시 불러 줘')
+    utterance ('회사까지 택시 불러 줘')
+  }
+}

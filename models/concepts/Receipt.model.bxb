@@ -1,0 +1,14 @@
+structure (Receipt) {
+  description (Receipt)
+
+  property (output_search) {
+    type (Output_search)
+    min (Required)
+    visibility (Private)
+  }
+
+  property (canceled) {
+    type (core.Boolean)
+    visibility(Private)
+  }
+}

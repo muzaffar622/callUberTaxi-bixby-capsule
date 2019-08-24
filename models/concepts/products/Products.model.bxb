@@ -1,0 +1,20 @@
+structure (Products) {
+  description (available cars)
+   property (image) {
+    type (image)
+    min (Required)
+  }
+   property (name) {
+    type (display_name)
+    min (Required)
+  }
+  property (price_details) {
+    type (Price_details)
+    min (Required)
+  }
+   property (product_id) {
+    type (Product_id)
+    min (Required)
+  }
+  
+}

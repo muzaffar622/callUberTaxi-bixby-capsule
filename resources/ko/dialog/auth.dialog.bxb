@@ -1,0 +1,6 @@
+dialog (NoAuth) {
+  match {
+    Search_taxi
+  }
+  template ("먼저 로그인을 하셔야 합니다")
+}

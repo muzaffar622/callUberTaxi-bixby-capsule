@@ -1,0 +1,3 @@
+text (Input_start_point) {
+  description (current location is start point)
+}

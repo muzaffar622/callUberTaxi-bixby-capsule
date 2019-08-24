@@ -1,0 +1,5 @@
+train (t-viejs6qnm0hyxzu9olk7220pa) {
+  utterance ("[g:Search_taxi] (집)[v:Input_end_point]까지 택시 잡아 줘")
+  plan (Y2BhkKtKLMhJTNIrzk0sKglJrMjU8y8tKSgtiS9OTSxKzmCQwZAPBkvElwDZDAoYsp55IM2peSnxBfmZeSVY9AeAxOOLS4B8BmYGRgYmIMkApEEQApjAogwA)
+  last-modified (1561982290657)
+}

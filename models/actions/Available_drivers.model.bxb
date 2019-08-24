@@ -1,0 +1,15 @@
+action (Available_drivers) {
+  type(Constructor)
+  description (show available drivers nearby)
+  collect {
+    input (products) {
+      type (Products)
+      min (Required) max (One)
+    }
+  }
+  output (Products){
+     evaluate{
+      $expr(products)
+    }
+  }
+}

@@ -1,0 +1,12 @@
+action (UpdateOrder) {
+  type(Search)
+  description (update)
+  collect {
+    input (output_search) {
+      type (Output_search)
+      min (Optional) max (One)
+    }
+    
+  }
+  output (Output_search)
+}

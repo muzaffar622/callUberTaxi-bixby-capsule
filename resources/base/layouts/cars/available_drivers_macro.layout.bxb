@@ -1,0 +1,23 @@
+layout-macro-def (available_drivers) {
+  params {
+    param (products) {
+      type (Products)
+      min (Required) max (One)
+    }
+  }
+  content {
+    image-card {
+      aspect-ratio (21:9)
+      image-url ("#{value(products.image)}")
+       title-area {
+        halign (Start)
+        slot1 {
+          text {
+            value ("#{value(products.product_id)}")
+            style (Title_L)
+          }
+        }
+       }
+    }
+  }
+}

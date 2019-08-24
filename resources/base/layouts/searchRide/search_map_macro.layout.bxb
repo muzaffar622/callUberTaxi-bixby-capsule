@@ -1,0 +1,36 @@
+layout-macro-def (search_map) {
+  params {
+    param (search) {
+      type (Output_search)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      content{
+        map-card{
+          aspect-ratio(16:9)
+          title-area{
+            slot1{
+              text{
+                value("#{value(search.input_end_point)}")
+                style(Title_S)
+              }
+            }
+          }
+          markers{
+            marker{
+              geo (search.point_start.point)
+              icon (img/location_start.png)
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+      }
+    }
+  }
+}

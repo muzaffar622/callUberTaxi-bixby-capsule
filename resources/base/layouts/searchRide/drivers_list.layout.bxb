@@ -1,0 +1,37 @@
+layout-macro-def (drivers_list){
+    params {
+    param (search) {
+      type (Output_search)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        thumbnail-card {
+    title-area {
+        halign (Start)
+        slot1 {
+            text {
+            style (Title_S)
+            value ("#{value(search.products[0].name)}")
+            }
+        }
+        slot3 {
+            single-line {
+            text {
+                value ("#{value(search.products[0].product_id)}")
+                style (Detail_M_Soft)
+            }
+            }
+        }
+    }
+    image-url {
+        template ("#{value(search.products[0].image)}")
+    }
+    image-position (End)
+}
+      }
+    }
+  }
+}

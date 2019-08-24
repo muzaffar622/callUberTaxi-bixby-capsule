@@ -1,0 +1,27 @@
+ structure (myProfileResult) {
+  description (show result of my profile)
+  property (picture) {
+    type (Picture)
+    min (Optional) max (One)
+  }
+  property (first_name) {
+    type (FirstName)
+    min (Optional) max (One)
+  }
+  property (last_name) {
+    type (LastName)
+    min (Optional) max (One)
+  }
+  property (email) {
+    type (Email)
+    min (Optional) max (One)
+  }
+  property (promo_code) {
+    type (PromoCode)
+    min (Optional) max (One)
+  }
+  property (mobile_verified) {
+    type (MobileVerified)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,32 @@
+confirmation-view {
+  match {
+    Confirmation {
+      confirming {
+        make_request (action)
+      }
+    }
+  }
+  
+  message {
+    template ("예약할거야?")
+  }
+
+  mode (NegativeEmphasis)
+
+  // Confirming with a `value: Confirmation(true)` doesn't work without this block. DO NOT remove confirm-options.
+  confirm-options {
+    on-confirm {
+      if (false) {
+        halt {
+          dialog ("")
+        }
+      }
+    }
+  }
+
+  render {
+    layout {
+       
+    }
+  }
+}

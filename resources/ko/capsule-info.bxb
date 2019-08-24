@@ -1,0 +1,18 @@
+capsule-info {
+  display-name (스마트 택시)
+  developer-name (무자파르)
+  icon-asset (/img/easy-taxi-logo.png)
+  description ("쉽게 요청할 수 있는 택시 서비스입니다")
+  search-keywords{
+    keyword (택시 주문)
+    keyword (택시 부르기)
+    keyword (우버 택시)
+    keyword (스마트 택시)
+  }
+  privacy-policy-url (https://github.com/muzaffar622/Smart-taxi/blob/master/README.md)
+  dispatch-name (스마트 택시)
+  dispatch-aliases{
+    alias (smart 택시)
+    alias (smart taxi)
+  }
+}

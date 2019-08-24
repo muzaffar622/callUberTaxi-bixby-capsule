@@ -1,0 +1,4 @@
+structure (Point_start) {
+  description (geo capsule of save lat, long)
+  role-of (geo.NamedPoint)
+}

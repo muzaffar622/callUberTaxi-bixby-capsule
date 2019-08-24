@@ -1,0 +1,25 @@
+layout-macro-def (search_end_point) {
+  params {
+    param (search) {
+      type (Output_search)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      title{
+        template ("도착 위치")
+      }
+      content{
+        cell-card{
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("#{value(search.input_end_point)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

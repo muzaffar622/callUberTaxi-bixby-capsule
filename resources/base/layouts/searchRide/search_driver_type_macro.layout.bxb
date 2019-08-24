@@ -1,0 +1,31 @@
+layout-macro-def (search_driver_type) {
+  params {
+    param (search) {
+      type (Output_search)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      title{
+        template ("택시 유형")
+      }
+      content{
+        input-cell {
+          label {
+            template ("SendToLabel")
+          }
+          value {
+            template ("#{value(search.products[0].name)}")
+          }
+          on-click {
+              intent {
+                value-set { @prompt-behavior(AlwaysElicitation) Products {$expr(search.products)} }
+                goal { @conversational Search_taxi }
+              }
+            }
+        }
+      }
+    }
+  }
+}

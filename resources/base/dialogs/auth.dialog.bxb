@@ -1,0 +1,6 @@
+// dialog (Authorization) {
+//   match: requestRide(this){
+//     from-output: requestRide(action)
+//   }
+//   template ("I need your permission to book a ride share for you...")
+// }

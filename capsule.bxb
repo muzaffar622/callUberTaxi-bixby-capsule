@@ -1,0 +1,26 @@
+capsule {
+  id (zaplab.smartTaxi)
+  version (0.1.1)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+   store-sections {
+    section (TravelAndTransportation)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+   permissions{
+    user-profile-access
+  }
+  
+  capsule-imports {
+    import (viv.entity) { as (entity) version (3.18.11) }
+    import (viv.geo) { as (geo) version-from (entity) }
+    import (viv.core) { as (core)}
+    import (viv.common) { as (common) version-from (entity)}
+  }
+}

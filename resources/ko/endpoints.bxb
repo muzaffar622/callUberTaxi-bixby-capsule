@@ -1,0 +1,18 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (myProfile) {
+      local-endpoint (search.js)
+      authorization (User)
+    }
+    action-endpoint (Search_taxi) {
+      accepted-inputs (input_start_point, input_end_point)
+      local-endpoint (search.js)
+      authorization (User)
+    }
+    action-endpoint (make_request) {
+      accepted-inputs (order)
+      local-endpoint (make_request.js)
+      authorization (User)
+    }
+  }
+}

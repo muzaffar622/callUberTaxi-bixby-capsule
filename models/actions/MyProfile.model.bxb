@@ -1,0 +1,19 @@
+action (myProfile) {
+  type(Search)
+  description (show user profile)
+  collect {
+    input (picture){
+     type (Picture) 
+      min (Optional) max (One)
+    }
+    input (fist_name){
+     type (FirstName) 
+      min (Optional) max (One)
+    }
+    input (last_name){
+     type (LastName) 
+      min (Optional) max (One)
+    }
+  }
+  output (myProfileResult)
+}

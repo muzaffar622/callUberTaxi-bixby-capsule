@@ -1,0 +1,11 @@
+structure (Order) {
+  description (Order)
+  features {
+    pre-commit-state
+  }
+  
+  property (output_search) {
+    type(Output_search)
+    visibility (Private)
+  }
+}

@@ -1,0 +1,10 @@
+train (t-p73r13hnrji209z9pswvsuemo) {
+  utterance ([g:myProfile] 내 계정 보여 줘)
+  plan (Y2BiUKhKLMhJTNIrzk0sKglJrMjUy60MKMpPy8xJDUotLs0pYZDCrYKBEQgZoBhIAgA=)
+  last-modified (1561980207335)
+}
+train (t-paap2t7dci778vedvgbmrme3m) {
+  utterance ("[g:Search_taxi] (삼성동 71)[v:Input_end_point] 번지 로 택시 불러 줘")
+  plan (Y2BhkKtKLMhJTNIrzk0sKglJrMjU8y8tKSgtiS9OTSxKzmCQwZAPBkvElwDZDAoYsp55IM2peSnxBfmZeSVY9AeAxOOLS4B8BmYGRgYmIMkApEEQApjAogwA)
+  last-modified (1561982091990)
+}

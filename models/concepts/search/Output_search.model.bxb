@@ -1,0 +1,23 @@
+structure (Output_search) {
+  description (result of order data)
+
+  property (input_start_point) {
+    type (Input_start_point)
+    min (Required) max (One)
+  }
+  property (input_end_point) {
+    type (Input_end_point)
+    min (Required) max (One)
+  }
+  property (products){
+    type (Products)
+    min (Optional)
+  }
+  property (point_start) {
+    type (Point_start)
+    min (Required) max (One)
+  }
+  features {
+    transient
+  }
+}

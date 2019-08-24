@@ -1,0 +1,36 @@
+result-view {
+  match: Output_search(this)
+  message {
+    template-macro (order_confirm)  
+  }
+  render {
+    layout{
+
+      layout-macro (search_map){
+        param(search){
+           expression (this)
+        }
+      }
+      layout-macro (search_start_point){
+        param(search){
+          expression (this)
+        }
+      }
+      layout-macro (search_end_point){
+        param(search){
+          expression (this)
+        }
+      }
+      layout-macro (search_driver_type){
+        param(search){
+          expression (this)
+        }
+      }
+    }    
+  }
+  conversation-drivers {
+    conversation-driver {
+      template ("계속해줘")
+    }
+  }
+}

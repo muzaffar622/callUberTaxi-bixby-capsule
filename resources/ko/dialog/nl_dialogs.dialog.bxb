@@ -1,0 +1,5 @@
+template-macro-def (order_confirm) {
+  content {
+    template ("이렇게 요청하시겠습니까?")
+  }
+}
