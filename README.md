@@ -5,7 +5,7 @@
 # Overview
 This capsule is the sample of call taxi through Bixby voice assistant.
 
-# Guides to Bixby Studio
+# Guides for Bixby Studio
 [Getting Started](https://bixbydevelopers.com/dev/docs/get-started)
 
 # 개인정보보호 - Privacy KR
