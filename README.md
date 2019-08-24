@@ -5,10 +5,6 @@
 # Overview
 This capsule is the sample of call taxi through Bixby voice assistant.
 
-
-# smartTaxi
-call Uber taxi by Bixby virtual assistant
-
 # Guides to Bixby Studio
 [Getting Started](https://bixbydevelopers.com/dev/docs/get-started)
 
