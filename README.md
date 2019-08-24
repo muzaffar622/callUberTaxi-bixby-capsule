@@ -1,5 +1,6 @@
-![](https://github.com/muzaffar622/smartTaxi/blob/dev/assets/img/easy-taxi-logo.png)
-
+<p align="center">
+  <img src="https://github.com/muzaffar622/smartTaxi/blob/dev/assets/img/easy-taxi-logo.png?raw=true"/>
+</p>
 # Overview
 This capsule is the sample of call taxi through Bixby voice assistant.
 
