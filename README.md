@@ -1,3 +1,5 @@
+![]https://github.com/muzaffar622/smartTaxi/blob/dev/assets/img/easy-taxi-logo.png
+
 # Overview
 This capsule is the sample of call taxi through Bixby voice assistant.
 
